@@ -1,0 +1,17 @@
+{
+  "rulesFile": "database.rules.json",
+  "hosting": {
+    "public": "dist/ng-pi-fb",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

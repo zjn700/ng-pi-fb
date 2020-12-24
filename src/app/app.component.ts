@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-pi-fb';
+  //title = 'z-ng-pi-fb';
+  title = 'Ms. Athena\'s '
+  subtitle = 'Online Ilonggo Course'
 }
